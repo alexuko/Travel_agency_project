@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Travel Agency </title>
+    </head>
+    <body>
+        <!-- main container -->
+        <div class="container">
+            <!-- header -->
+            <header class="header">
+                
+                <!-- logo -->
+                <img src="img/logo.png" alt="travel-agency-logo" class="logo">
+                
+                <!-- search bar -->
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button">
+                        <!-- inclde SVG icon  -->
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite-symbol-defs.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <!-- navigation right side of header -->
+                <nav class="user-nav">                    
+                    <!-- icon  1-->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite-symbol-defs.svg#icon-bookmark"></use>
+                        </svg>
+                        <!-- little notification number on top of icon                         -->
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    
+                    <!-- icon  2-->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite-symbol-defs.svg#icon-chat"></use>
+                        </svg>
+                        <!-- little notification number on top of icon                         -->
+                        <span class="user-nav__notification">13</span>
+                    </div>
+
+                    <!-- user picture  -->
+                    <div class="user-nav__user">
+                        <img src="img/mini.jpg" alt="user-photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Alex</span>
+                    </div>
+
+                </nav>
+
+
+            </header>
+            <!-- container holding app info -->
+            <div class="content">
+                <!-- navigation bar -->
+                <nav class="sidebar">
+                    navigation
+                </nav>
+                <!-- main display -->
+                <main class="hotel-view">
+                    hotel-view
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
