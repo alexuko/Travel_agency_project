@@ -11,7 +11,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-color: var(--color-grey-light-2);
+    border-bottom: var(--line);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +38,29 @@
     flex: 1;//grows as much as it can 
     
     //for testing
-    background-color: orangered;
-    height: 60rem;
+    // background-color: orangered;
+    // height: 60rem;
+}
+
+.detail{
+    display: flex;// to put them side by side
+    padding: 3rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+    font-size: 1.4rem;
+}
+.description{
+    background-color: #fff;
+    box-shadow: var(--shadow-dark);
+    flex: 0 0 60%; //no grow, no shrink and use 60% of the space  
+    margin-right: 3rem;
+    padding: 3rem;
+
+}
+.user-reviews{
+    // background-color: orangered;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; //this 
 }
